@@ -10,6 +10,11 @@ plugins:
     - state
     - catalog
     - discover
+    environments:
+  - name: development
+  - name: staging
+  - name: production
+default_environment: development
     settings:
     - name: device_uuid
     - name: access_token
